@@ -1,0 +1,168 @@
+.my-editor {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.signing-button {
+  background-color: #48bb78;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signing-button:hover {
+  background-color: #2f855a;
+}
+
+.content {
+  display: flex;
+}
+
+.user-prompt {
+  width: 25%;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: calc(100vh - 5rem);
+  overflow-y: auto;
+  position: fixed;
+}
+
+.user-prompt-header {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.user-prompt-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-prompt-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #d2d6dc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  resize: none;
+  height: calc(100% - 8rem);
+}
+
+.user-prompt-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.generate-button,
+.cancel-button,
+.finalize-button {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.finalize-button {
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.generate-button {
+  background-color: rgb(84, 167, 296);
+}
+
+.generate-button:hover {
+  background-color: rgb(74, 137, 196);
+}
+
+.cancel-button {
+  background-color: #f56565;
+}
+
+.cancel-button:hover {
+  background-color: #c53030;
+}
+
+.finalize-button {
+  background-color: #48bb78;
+}
+
+.finalize-button:hover {
+  background-color: #2f855a;
+}
+
+.editor-container {
+  width: 75%;
+  margin-left: 25%;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.ql-editor {
+  background-color: #f0f0f0; /* Light grey background for editor, more light -> fafafa  */ 
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.popup-content p {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup button:hover {
+  background-color: #45a049;
+}
+
+
